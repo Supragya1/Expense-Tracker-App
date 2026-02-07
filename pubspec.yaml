@@ -1,0 +1,42 @@
+name: expense_tracker
+description: Road Ronin Finance - Personal Expense Tracker with SMS Integration
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # SMS Listening (Background + Foreground)
+  telephony: ^0.2.0
+  
+  # Local Notifications for Transaction Alerts
+  flutter_local_notifications: ^16.0.0
+  
+  # SQLite Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Date/Currency Formatting
+  intl: ^0.18.1
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Cupertino Icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Asset folders (add images later)
+  # assets:
+  #   - assets/images/

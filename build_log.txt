@@ -1,0 +1,20 @@
+Running Gradle task 'assembleDebug'...                          
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'C:\Users\DELL\Music\vscode\Programming\ExpenseTracker\android\settings.gradle' line: 21
+
+* What went wrong:
+Error resolving plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+> Could not read workspace metadata from C:\Users\DELL\.gradle\caches\8.7\kotlin-dsl\scripts\bf6c1b8772a2f1f8352228922de90e74\metadata.bin
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2s
+Running Gradle task 'assembleDebug'...                              3.3s
+Gradle task assembleDebug failed with exit code 1
