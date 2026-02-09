@@ -55,7 +55,7 @@ class RoadRoninFinanceApp extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Colors.black87),
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           elevation: 0,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(14),
@@ -79,7 +79,8 @@ class RoadRoninFinanceApp extends StatelessWidget {
           ),
           focusedBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12),
-            borderSide: BorderSide(color: Colors.blue.withOpacity(0.5), width: 2),
+            borderSide:
+                BorderSide(color: Colors.blue.withOpacity(0.5), width: 2),
           ),
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(

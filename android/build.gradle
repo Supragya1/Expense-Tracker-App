@@ -26,6 +26,18 @@ subprojects {
     project.evaluationDependsOn(':app')
 }
 
+subprojects {
+    plugins.withId('com.android.library') {
+        android {
+            if (namespace == null) {
+                def newNamespace = project.group?.toString() ?: "com.example.${project.name}"
+                println "Fixing namespace for library project: ${project.name}, group: ${project.group}, setting to: $newNamespace"
+                namespace newNamespace
+            }
+        }
+    }
+}
+
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }

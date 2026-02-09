@@ -11,17 +11,17 @@ dependencies:
     sdk: flutter
   
   # SMS Listening (Background + Foreground)
-  telephony: ^0.2.0
+  # telephony: ^0.2.0
   
   # Local Notifications for Transaction Alerts
-  flutter_local_notifications: ^16.0.0
+  flutter_local_notifications: ^18.0.0
   
   # SQLite Database
   sqflite: ^2.3.0
   path: ^1.8.3
   
   # Date/Currency Formatting
-  intl: ^0.18.1
+  intl: ^0.19.0
   
   # State Management
   provider: ^6.1.1
